@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using RA_OEE_App.ViewModel
+@model HomeViewModel
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+    @foreach (var line in Model.AllLines)
+    {
+       <partial name="_LineCard" model="line" />
+    }
+
+</div>

@@ -1,0 +1,176 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+body {
+    padding-top: 85px;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1, .h1 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+h2, .h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h3, .h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h4, .h4 {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+h5, .h5 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h6, .h6 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #E5E5E5;
+}
+
+.nav-link.btn-link {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+    margin-left: 20px;
+}
+
+    .nav-item .dropdown-menu {
+        padding: 0px;
+        margin-top: 23px;
+    }
+
+    .nav-item .dropdown-item:hover, .nav-item .dropdown-item:focus {
+        color: #C87D52;
+    }
+
+    .nav-item.dropdown li {
+        background-color: #C87D52;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: 2px solid #FEF6F5;
+    }
+
+        .nav-item.dropdown li > a {
+            color: #E5E5E5;
+        }
+
+.carousel-indicators {
+    justify-content: end;
+    margin-right: 3%;
+}
+
+    .carousel-indicators button {
+        border-radius: 50%;
+    }
+
+.logo-mark {
+    position: relative;
+    height: 49px;
+    width: 100px;
+    top: -25px;
+    margin-bottom: -44px;
+}
+
+
+.unit-button {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.unit-card {
+    border: none;
+}
+
+.card-body.unit-button {
+    padding: 0px;
+}
+
+.unit-button > h4, unit-button > .h4 {
+    margin-bottom: 0px;
+}
+
+.unit-link {
+    text-decoration: none;
+}
+
+.header-line {
+    width: 167px;
+    background-color: #36302C;
+    border: 2px solid #36302C;
+}
+
+.no-underline {
+    text-decoration: none;
+
+}
+
+
+.progress {
+ margin-top : 20px;
+
+}
+
+.card-icon {
+    height:30px;
+
+}
+
+.text-start {
+    color:black;
+
+}
+
+.card {
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+.card-status {
+    margin: 5px;
+
+}
+
+.card-description{
+    margin: 5px;
+}
+

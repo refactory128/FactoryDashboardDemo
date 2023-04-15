@@ -1,0 +1,13 @@
+﻿@using RA_OEE_App.ViewModel
+@model UnitListViewModel
+
+<h1>@Model.CurrentLine</h1>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+    @foreach (var unit in Model.Units)
+    {
+       <partial name="_UnitCard" model="unit" />
+    }
+
+</div>

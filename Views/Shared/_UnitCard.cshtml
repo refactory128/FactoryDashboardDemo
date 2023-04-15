@@ -1,0 +1,24 @@
+﻿@model Unit
+<div class="col">
+    <a asp-controller="Unit"
+     asp-action="Details"
+     asp-route-id="@Model.UnitId"
+     class="no-underline">
+        <div class="card line-card">
+            <div class="card-body unit-button ">
+                <div class="d-flex justify-content-between mt-2">
+                    <h2 class="text-start">@Model.UnitName </h2>
+
+                    @if ((int)Model.CurrentStatus == (int)Unit.StatusEnum.Running) {
+                        <img src = "~/images/run_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="Running Icon" class="card-icon"/>
+                    } 
+                    else @*Stopped*@
+                    {
+                        <img src = "~/images/dangerous_FILL0_wght400_GRAD0_opsz48.svg" alt="Stopped Icon" class="card-icon"/>
+                    }
+                    @*Todo: add more icons here if more states are added*@
+                </div>
+            </div>
+        </div>
+    </a>
+</div>

@@ -1,0 +1,11 @@
+﻿@using RA_OEE_App.ViewModel
+@model LineListViewModel
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+    @foreach (var line in Model.Lines)
+    {
+       <partial name="_LineCard" model="line" />
+    }
+
+</div>

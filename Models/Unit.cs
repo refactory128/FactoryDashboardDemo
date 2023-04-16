@@ -10,6 +10,8 @@
 
         public StatusEnum CurrentStatus { get; set; }
 
+        public string? Recipe { get; set; }
+
         public Line Line { get; set; } = default!;
     }
 }

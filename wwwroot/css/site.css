@@ -16,7 +16,7 @@ html {
 
 
 body {
-    padding-top: 85px;
+    
     font-family: "Work Sans", sans-serif;
 }
 
@@ -92,14 +92,6 @@ h6, .h6 {
             color: #E5E5E5;
         }
 
-.carousel-indicators {
-    justify-content: end;
-    margin-right: 3%;
-}
-
-    .carousel-indicators button {
-        border-radius: 50%;
-    }
 
 .logo-mark {
     position: relative;
@@ -122,13 +114,6 @@ h6, .h6 {
     border: none;
 }
 
-.card-body.unit-button {
-    padding: 0px;
-}
-
-.unit-button > h4, unit-button > .h4 {
-    margin-bottom: 0px;
-}
 
 .unit-link {
     text-decoration: none;
@@ -163,6 +148,7 @@ h6, .h6 {
 
 .card {
     box-shadow: 5px 5px 20px lightgray;
+    margin: 10px;
 }
 
 .card-status {
